@@ -394,6 +394,8 @@ int check_prerequisites(studentmaster *student, const char *course_no)
                 return 1;
             }
 
+            if (strlen(course.))
+
             for (i = 0; i < student->num_prereqs; i++) 
 			{
                 trim_whitespace(student->studprereq[i]);
